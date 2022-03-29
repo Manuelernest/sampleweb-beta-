@@ -1,0 +1,32 @@
+<style>
+img{
+	margin-left: auto;
+	 text-align: center;
+
+	}
+		header{
+		background-color: skyblue;
+		text-align: center;
+	}
+	nav{
+		float: right;
+	}
+		center{
+	     	float: left;
+	     	font-size: 140%;
+	     	
+	     }
+		article{
+			float: right;
+			width: 85%;
+		}
+		footer{
+			text-align: center;
+		}
+	@media (max-width: 600px) {
+			  nav, article{
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+	</style>

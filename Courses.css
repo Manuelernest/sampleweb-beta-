@@ -1,0 +1,28 @@
+<style>
+		img{
+			height: 30px;
+			width: 30px;
+			 margin-left: auto;
+			 text-align: center;
+
+
+		}
+		header{
+			text-align: center;
+			font-size: 150%;
+		}
+	     nav{
+	     	float: right;
+
+	     }
+	     center{
+	     	float: left;
+	     	font-size: 140%;
+	     	
+	     }
+	     
+	   footer{
+	   	text-align: center;
+	   }
+
+    </style>
