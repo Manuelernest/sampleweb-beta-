@@ -1,0 +1,123 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+		section{width: 100%; height: 1000px; float: left;}
+
+		#register{background-image:  url(YANDERE-466f2ee5-5330-44be-a708-ce7993432a27_ANIME_ILLUST.jpg); text-align: center;}
+		#home{background-image: url(buSuMY5i1p.png);}
+		#about{background-image: url(CRLelSjCiu.png);text-decoration-color: white; text-align: center;}
+		#contact{background-image: url(DU6jlgnSUd.png);}
+	
+		nav{width: 100%;position: fixed; z-index: 1; top: 80px;}
+		ul{width: fit-content;margin: auto;list-style: none;}
+		ul li{float: left;margin-right: 30px;}
+
+		ul li a{color: white;text-decoration: none;}
+
+		h1{color: #fff;text-align: center;margin-top: 150px;}
+	</style>
+	<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+</head>
+<body>	
+	<nav class="navbar navbar-default">	
+			<div class="container">
+				<a class="navbar-brand" href="#">King's Anime 101</a><br>
+				<a href="#" data-toggle="tooltip" title="Okay">Don't!!</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#home">Home</li>
+				<li><a href="#about">About Us</li>
+				<li><a href="#contact">Contact Us</li>
+					<li><a href="#register">Register/Log In</li>
+			</ul>
+		</nav>
+		<div class="container">
+			
+		</div>
+	<section id="home">
+		<h1>Home</h1>
+		<div class="container" style="color: black;text-align: center;">
+			<h3>Welcome to King's Anime 101</h3>
+		<p>In here, you can Discuss about Anime, Manga, Light Novels .,etc.</p>
+		</div>
+
+	</section>
+	<section id="about">
+		<h1>About Us</h1>
+		<br>
+		<div class="container" style="color:black;">
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>What is King's Anime 101?</h3>
+					<p>King's Anime is a Facebook Page where they upload anime Vids</p>
+				</div>
+				<div class="col-sm-6">
+					<h3>What is their purpose?</h3>
+					<p>It is to spread the World of Anime.</p>
+				</div>
+			</div>
+  
+
+		</div>
+	</section>
+	<section id="contact">
+		<h1>Contact Us</h1>
+		<br>
+		<h1 style="color: black;">If you have any questions regarding the page or the website, you can contact us at <br>animerandom1707@gmail.com<br></h1>
+	</section>
+	<section id="register">
+		
+		<h1>Register</h1>
+<div class="alert alert-danger">
+    <h1 style="text-align: left;color: orange;"> <strong>Warning!</strong>You cannot type in the textbox because it needs to be fixed.</h1>
+  </div>
+		<div class="container">
+					
+				<div class="form-group">
+				<h4 for="ex2" style="color: white">First Name</h4>
+				<input type="text" class="form-control"  placeholder="First Name">
+			</div>
+				<div class="form-group">
+				<h4 for="ex2" style="color: white"> Last Name</h4>
+				<input type="text" id="lastname" class="form-control" placeholder="Last Name">
+			</div>
+				</div>
+				<div class="checkbox">
+    				<h5 style="color: white"><input type="checkbox" >I agree to the terms and conditions</h5>
+  				</div>
+				<button type="submit" class="btn btn-primary">Register</button>
+
+				<div class="container">
+  		<h1>Log In</h1>
+  		<div class="media">
+    <div class="media-left media-middle">
+      <img src="img_avatar1.png" class="media-object" style="width:80px">
+    </div>
+  		<div class="container">
+  			<form>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    	<h5 style="color: white;"><input type="checkbox">Remember me</h5>
+    <button type="submit" class="btn btn-primary">Log In</button>
+  </form>
+  		</div>
+</div>
+</div>
+	</section>
+
+</body>
+</html>
